@@ -54,8 +54,8 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-left: 100px;
-    padding-right: 150px;
+    margin-left: 100px;
+    margin-right: 150px;
 }
 
 #contactus {
@@ -68,7 +68,8 @@ body {
     border-radius: 10px;
     font-size: 13px;
     cursor: pointer;
-    padding-right: 50px;
+    align-self: flex-start;
+    
 }
 
 #contactus:hover {
@@ -79,6 +80,7 @@ body {
     width: 640px;
     height: 360px;
     border-radius: 16px;
+    margin-right: 100px;
 }
 
 .container-two {
@@ -112,3 +114,61 @@ body {
     border-radius: 15px;
 }
 
+.container-three {
+    background-color: #e5e7eb;
+    padding: 150px;
+}
+
+.container-three-top {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.container-three-bottom {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: end;
+}
+
+.container-four {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 400px 100px 400px;
+    background-color: #3882f6;
+    padding: 25px;
+    border-radius: 16px;
+    color: white;
+}
+
+.container-four-left {
+    line-height: 13px;
+}
+
+.container-four-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 120px;
+}
+
+#signup {
+    color: white;
+    background-color: transparent;
+    border-style: solid;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 4px 15px 4px 15px;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.container-five {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1f2937;
+    color: white;
+}
